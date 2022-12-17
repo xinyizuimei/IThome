@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>20001030429-于欣怡</title>
+  <link rel="stylesheet" href="./css/css.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/circle.css">
+
+</head>
+
+<body>
+  <ul class="top_bar">
+    <!-- 三个li分別对应顶层的三个小标记 -->
+    <li class="quanzi">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-it-bai-copy"></use>
+      </svg>
+      <p>圈子</p>
+    </li>
+
+    <li class="fatie">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-bi"></use>
+      </svg>
+    </li>
+
+    <li class="fatie"><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-search"></use>
+      </svg>
+    </li>
+
+  </ul>
+  <!-- 顶部栏和工具栏多了个间隔 -->
+  <div class="quanZi">
+    <ul class="snav">
+    </ul>
+  </div>
+
+  <script>
+    //滚动下拉的js
+    var head = document.querySelector(".top_bar");
+    window.onscroll = function () {
+      var st = document.documentElement.scrollTop || document.body.scrollTop;
+      if (st > 10) {
+        head.style.position = "fixed";
+      }
+      else {
+        head.style.position = "static";
+      }
+    }
+  </script>
+  <!-- 工具栏 -->
+  <div class="swiper-container" id="dnav">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-xiaoxi2"></use>
+        </svg>
+        <p>闲谈</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-xiaomi"></use>
+        </svg>
+        <p>小米</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-xunhuan"></use>
+        </svg>
+        <p>循环</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-huawei"></use>
+        </svg>
+        <p>华为</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-pingguo"></use>
+        </svg>
+        <p>闲谈</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-pingguo"></use>
+        </svg>
+        <p>闲谈</p>
+        <h2>+0</h2>
+      </div>
+
+      <div class="swiper-slide">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-pingguo"></use>
+        </svg>
+        <p>闲谈</p>
+        <h2>+0</h2>
+      </div>
+    </div>
+  </div>
+  <!-- 整个tab的盒子 -->
+  <div class="tab">
+    <!-- tab的导航 -->
+    <div class="tt">
+      <span class="cur">新回复</span>
+      <span>新发表</span>
+      <span>持帖</span>
+      <span>精华</span>
+    </div>
+
+    <div class="tc show">
+      <h1>没有收到新的回复哟！</h1>
+    </div>
+    <div class="tc">2</div>
+    <div class="tc">3</div>
+    <div class="tc">4</div>
+  </div>
+
+  <div class="GongGao"></div>
+
+  <!-- 底部导航 -->
+  <div id="footer">
+    <div>
+      <a href="./index.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-it"></use>
+        </svg>
+        <p>资讯</p>
+      </a>
+    </div>
+
+    <div>
+      <a href="./circle.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-quanzi-red"></use>
+        </svg>
+        <p>圈子</p>
+      </a>
+    </div>
+
+    <div>
+      <a href="./found.html">
+        <svg class="icon" aria-hidden="true">
+
+          <use xlink:href="#icon-faxian"></use>
+        </svg>
+        <p>发现</p>
+      </a>
+    </div>
+
+    <div>
+      <a href="./me.html">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-wo"></use>
+
+        </svg>
+        <p>我</p>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="./js/tab.js"></script>
+  <script src="./fonts/iconfont.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/circle.js"></script>
+</body>
+
+</html>

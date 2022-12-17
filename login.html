@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>20001030429-于欣怡</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+
+<body>
+    <div>
+
+        <input type="image" src="./fonts/svg/jiantou.svg" onclick="goBack()">
+    </div>
+
+
+    <h3>密码登录</h3>
+
+    <form action="IT之家"  method="get" name="form1" onsubmit="return checkForm()">
+        <input type="text" name="username" required="required" placeholder="输入手机号或邮箱" onfocus="focus_username()" onblur="blur_username()">
+        <input id = "password" type="password" name="password" required="required" placeholder="输入密码" onfocus="focus_userpwd()" onblur="blur_userpwd()">
+        <button id="login-button" type="submit">登录</button>
+    </form>
+
+    <p>登陆即代表您已阅读并同意<a href="#">用户协议</a>和<a href="#">隐私政策</a></p>
+
+
+    <script src="./fonts/iconfont.js"></script>
+    <script src="./js/login.js"></script>
+
+    <script>
+        function checkForm() {
+
+            var pwd = document.getElementById('password').value;
+            var reg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,}$/;
+            if(!reg.test(pwd)){
+                alert("密码长度要大于6位，由数字和字母组成");
+                return false;
+        }
+            return true;
+        }
+    </script>
+
+</body>
+
+</html>

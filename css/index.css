@@ -1,0 +1,187 @@
+html {
+  font-size: 3.5vw;
+}
+
+/* head */
+#header {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#header li {
+  margin-top: 2vw;
+  width: 100%;
+  flex-grow: 9;
+  list-style: none;
+
+}
+
+#header li img {
+  margin-left: 3.5vw;
+  box-sizing: border-box;
+
+}
+
+#header li img:nth-child(2) {
+  margin-left: 10vw;
+
+}
+
+
+#header input {
+  background-image: url(../fonts/svg/sousuo.svg);
+  background-repeat: no-repeat;
+  background-position: 2vw;
+  font-size: 4vw;
+  border-radius: 2em;
+}
+
+#header input value {
+  padding-left: 5px;
+}
+
+#header img {
+  width: 30%;
+}
+
+#header use {
+  width: 100%;
+}
+
+
+/* æ ‡ç­¾ */
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+#nav li {
+  width: 12.4%;
+  font-size: 3.5vw;
+  padding: 3.5vw 0 2vw 3.5vw;
+
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+#nav img {
+  margin-top: 1vw;
+  width: 25%;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+#slide {
+  margin-top: 2vw;
+}
+
+/* æ¨ªå¹… */
+#slide img {
+  width: 100%;
+
+}
+
+.swiper-container {
+  width: 95%;
+  border-radius: 1em;
+  overflow: hidden;
+  /* padding-right: 1.1vw; */
+}
+
+.swiper-pagination {
+  --swiper-pagination-color: rgb(210, 34, 34);
+}
+
+/* news */
+
+.news {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2vw;
+  margin-left: 1vw;
+}
+
+.news li {
+
+  display: flex;
+  flex-direction: row;
+}
+
+.news img {
+
+  width: 25%;
+
+  display: block;
+  border: none;
+  text-align: right;
+  margin: auto;
+}
+
+.new {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.new p {
+  font-size: 3.5vw;
+  margin-left: 2vw;
+  padding-bottom: 3vw;
+  color: gray;
+}
+
+.new h3 {
+  font-size: 3.5vw;
+  margin-left: 2vw;
+  padding-bottom: 3vw;
+}
+
+/* footer */
+
+#footer {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+
+
+}
+
+
+#footer div {
+  width: 25%;
+  text-align: center;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  width: 20%;
+  font-size: 5.0vw;
+
+}

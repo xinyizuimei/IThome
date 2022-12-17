@@ -1,0 +1,115 @@
+body,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 3.5vw;
+    background-color: rgb(242, 243, 247);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.list,
+.list2,
+.list3 {
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+    background-color: #fff;
+}
+
+li {
+    display: flex;
+    width: 45%;
+    font-size: 3.5vw;
+    border: .1vw solid gray;
+    list-style-type: none;
+    padding: 4vw;
+    padding-right: 50vw;
+
+}
+
+.icon {
+
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    width: 25%;
+    font-size: 5.0vw;
+    padding: 0;
+
+}
+
+#header {
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+
+div {
+    width: 20%;
+    /* justify-content:space-between; */
+    flex-grow: 1;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+#Login_Way {
+
+    margin-bottom: 5vw;
+}
+
+
+
+input {
+    width: 100%;
+    font-size: 3.5vw;
+    border-radius: 2em;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.bottom {
+
+    border: 0px;
+}
+
+#footer {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+
+
+}
+
+
+#footer div {
+    width: 25%;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 3.5vw;
+    background-color: #fff;
+}

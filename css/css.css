@@ -1,0 +1,29 @@
+body,p,ul,h1,h2,h3,h4,h5,h6,from,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-bottom: 10vw;
+}
+ul{
+    list-style: none;
+    /*列表样式：无；*/
+    
+}
+a{
+    text-decoration: none;
+    /*文本样式*/
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+img{
+    border: none;
+    display: block;
+    
+
+}
+body{
+    min-width: 320px;
+}

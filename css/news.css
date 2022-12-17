@@ -1,0 +1,115 @@
+
+     body{
+      display: flex;
+   }
+    html{
+        font-size: 3.5vw;
+    }
+    .article{
+        display: flex;
+        flex-wrap:wrap;
+        padding-top: 10vw;
+    }
+    .article h3{
+        width:100%;
+        
+        text-align: center;
+    }
+    .article p{
+        
+        width:100%;
+        text-indent: 2em;
+    }
+    .article p1{
+        color:grey;
+      width:100%;
+      margin-bottom: 1vw;
+      text-indent: 2em;
+  }
+    .article img{
+        width: 100%;
+    }
+    .article button{
+        font-size: 3.5vw;
+        border-radius: 1em;
+        border: .1vw solid #fff;
+
+    }
+    .JiuCuo,.PingFeng{
+        width: 100%;
+    }
+    .JiuCuo  ul,.PingFeng ul{
+        width: 90%;
+        justify-content: space-around;
+        display: inline-flex;
+    }
+    .JiuCuo li,.PingFeng li{
+        padding-top: 2em;
+        padding-left: 4em;
+        width: 30%;
+        flex-grow: 1;
+    }
+    .PingFeng button{
+        padding: 3.5vw;
+    }
+
+    #footer {
+      border: none;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      bottom: 0;
+      background-color: #fff;
+
+
+    }
+
+
+    #footer div {
+     text-align: right;
+    }
+    #footer div:nth-child(1) {
+    
+      width: 50%;
+      
+    }
+    #footer input{
+        width: 100%;
+        border-radius: 1em;
+    }
+    #footer div:nth-child(2),  #footer div:nth-child(3),  #footer div:nth-child(4){
+      width: 15%;
+   
+    }
+    #footer div:nth-child(5) {
+      width: 5%;
+     
+    }
+
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+      width: 100%;
+      font-size: 5.0vw;
+
+    }
+    
+    .fanhui{
+      border: none;
+
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      background-color: red;
+    }
+    .fanhui input{
+      font-size: 3.5vw;
+    }
